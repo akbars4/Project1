@@ -17,6 +17,7 @@ const SearchD = () => {
     <div className='flex flex-col gap-10 my-5 w-40 bg-blue-gray-700s'>
         <form onSubmit={handleSubmit}>
             <Input 
+            className="text-black"
             type="text"
             placeholder="Search"
             value={search}

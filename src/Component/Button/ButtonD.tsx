@@ -6,10 +6,13 @@ const ButtonD = () => {
     console.log("Button Clicked");
   };
   return (
-    <div>
+    <div className="mb-[25px]">
       <Button 
+      color="primary" 
+      animation={true}
       onClick={handleClick} 
-      className="btn btn-primary border rounded my-5"
+      className="border w-52 rounded"
+      // disabled = {true}
       >
         Pencet Dah
       </Button>

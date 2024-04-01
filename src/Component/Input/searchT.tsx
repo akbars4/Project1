@@ -6,10 +6,11 @@ const SearchT = () => {
         console.log('searchT: ', e.target.value);
     };
   return (
-    <div className="flex w-72 flex-col">
+    <div className="flex flex-col mt-7 mb-7">
       <Input label="Search Here" 
       crossOrigin={undefined}
       onChange={handleSearchT}
+      
       />
     </div>
   )
